@@ -1,0 +1,125 @@
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	float: right;
+	background-color: #fff;
+	padding: 1px 0 1px 1px;
+	border: 1px solid #000;
+}
+
+ul li {
+	float: right;
+}
+
+ul a:link, ul a:visited {
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	background: #000 url("tlo.gif") repeat-x center;
+	color: #fff;
+	padding: 10px 20px;
+	border-right: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+ul a:hover {
+	background-color: #800;
+	background-image: url("tlo2.gif");
+}
+body {
+	background: url(images/background.png) repeat;
+	font-family: verdana, arial, serif;
+	font-size: 0.8em;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+a {
+	background-color: #ffffff;
+	color: #666666;
+	text-decoration: none;
+}
+
+#container {
+	background-color: #ffffff;
+	color: #000000;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	width: 750px;
+	height: 1900px;
+}
+#header1 {
+	background-color: #ffffff;
+	height: 40px;
+	width: 100%;
+}
+#header {
+	background: url(images/banner1.png) ;
+	height: 330px;
+	width: 100%;
+	
+}
+
+
+#sidebar {
+	float: left;	
+	margin-top: 10px;
+	width: 100px;
+
+}
+
+#sidebar ul {
+	list-style: none;
+	margin-left: 15px;
+	padding-left: 0px;
+}
+
+
+#sidebar a {
+	background-color: #ffffff;
+	border-bottom: 1px dotted #666666;
+	border-right: 1px dotted #666666;
+	color: #666666;
+	display: block;
+	font-size: 0.9em;
+	font-weight: bold;
+	padding: 2px 8px;
+	text-decoration: none;
+	width: 100px;
+}
+
+
+#content {
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 8px;
+	width: 700px;
+	}
+
+
+#footer 
+{
+	background-color: black;
+	clear: both;
+	color: white;
+	font-size: 0.7em;
+	margin: 0 auto;
+	padding-bottom: 4px;	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding: 10px;
+	text-align: center;
+	width: 730px;
+}
+
+
+
